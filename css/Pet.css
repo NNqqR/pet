@@ -1,0 +1,141 @@
+header  .daohang{
+    width: 100%;
+    height: 62px;
+    background-color:rgba(255,255,255,0.8);
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding: 0 120px;
+    box-sizing: border-box;
+}
+header .daohang .logo{
+    width: 133px;
+    height: 60px;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+}
+header  .daohang .caidan{
+    flex-grow: 1;
+    line-height: 60px;
+
+}
+header  .daohang .caidan .shouye{
+    width: 80px;
+    float: right;
+}
+header  .daohang .caidan a{
+    width:92px ;
+    font-size: 13px;
+    float: right;
+    text-align: center;
+}
+header  .daohang .caidan a:hover{
+    background-color: black;
+    color: white;
+}
+header  .daohang .caidan .lianxi{
+    width: 102px;
+    float: right;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding: 0 120px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 62px;
+
+}
+.box .title{
+    width: 100%;
+    min-height: 70px;
+    border-bottom:1px solid #cccccc;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.box .title li{
+    width: 82px;
+    height: 34px;
+    float: left;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 34px;
+    margin-left: 3px;
+}
+.box .title .first{
+    border: 1px solid black;
+}
+.box .title li:hover{
+    transition: .5s;
+    border: 1px solid black;
+}
+.box .pic{
+    width: 100%;
+    height: 1124px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+}
+.box .pic li{
+    width: 270px;
+    height: 234px;
+    float: left;
+    margin-right: 9px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+.box .pic .li{
+    margin-right: 0;
+}
+.box .pic li .name{
+    margin-top: 5px;
+}
+.box .pic li .name p{
+    font-size: 14px;
+    color: #323232;
+}
+.box .pic li .name span{
+    font-size:11px ;
+    color: #8f8f8f;
+}
+footer{
+    width: 100%;
+    height: 158px;
+    background-color: white;
+    padding:40px 60px ;
+    box-sizing: border-box;
+}
+footer .one{
+    width: 100%;
+    padding: 0 43px;
+    float: left;
+    margin-top: 10px;
+}
+footer .one a{
+    width: 85px;
+    font-size: 12px;
+    display: block;
+    border-right: 1px solid #e2cac9;
+    padding: 0 18px;
+    box-sizing: border-box;
+    float: left;
+    color: #969696;
+
+}
+footer .two {
+    font-size: 12px;
+    color: #969696;
+    padding: 0 61px;
+    margin-top: 30px;
+}
+footer .three {
+    font-size: 12px;
+    color: #969696;
+    padding: 0 61px;
+    margin-top: 10px;
+}
+footer .three  a{
+    font-size: 12px;
+    color: #969696;
+}

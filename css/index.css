@@ -1,0 +1,327 @@
+body,html{
+    background-color: #dcbfbd;
+}
+header{
+    width: 100%;
+    height:auto;
+}
+header .lunbo{
+    width: 100%;
+    height: 662px;
+    /*background-image: url("../img/lunbo2.png");*/
+    /*background-image: url("../img/lunbo1.png");*/
+    /*background-size: cover;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    position: relative;
+}
+header .lunbo .box1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+header .lunbo .box1 img{
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+}
+header .lunbo .box2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+header .lunbo .box2 img{
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+}
+header .lunbo .daohang{
+    width: 100%;
+    height: 62px;
+    background-color:rgba(255,255,255,0.8);
+    display: flex;
+    position: fixed;
+    top: 0;
+    padding: 0 120px;
+    box-sizing: border-box;
+}
+header .lunbo .daohang .logo{
+    width: 133px;
+    height: 60px;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+}
+header .lunbo .daohang .caidan{
+    flex-grow: 1;
+    line-height: 60px;
+
+}
+header .lunbo .daohang .caidan .shouye{
+    width: 80px;
+    float: right;
+}
+header .lunbo .daohang .caidan a{
+    width:92px ;
+    font-size: 13px;
+    float: right;
+    text-align: center;
+}
+header .lunbo .daohang .caidan a:hover{
+    background-color: black;
+    color: white;
+}
+header .lunbo .daohang .caidan .lianxi{
+    width: 102px;
+    float: right;
+}
+header .lunbo  .zhongjian{
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 240px;
+    left: 380px;
+    text-align: center;
+}
+header .lunbo  .zhongjian .title{
+    width: 550px;
+    height: 82px;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    line-height: 82px;
+    margin-bottom: 10px;
+}
+header .lunbo .zhongjian .des{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+header .lunbo .lunbodian{
+    width: 100%;
+    height: 16px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+header .lunbo .lunbodian a{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    z-index: 9999;
+}
+/*header .lunbo .lunbodian .click{*/
+    /*background-color: #ffffff;*/
+/*}*/
+header .lunbo .lunbodian .li{
+    background-color:rgba(97,87,85,0.3);
+}
+
+header .lunbo .lunbodian .change{
+    background-color: white;
+
+}
+.second{
+    width: 100%;
+    height:662px;
+    background-color: #dcbfbd;
+    padding: 0 120px;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    padding-top:60px ;
+}
+.second .title{
+    width: 100%;
+    height: 112px;
+    text-align: center;
+    padding-top: 25px ;
+    box-sizing: border-box;
+    border-bottom: 1px  solid #dbc3c2;
+}
+.second .title h3{
+    font-size: 30px;
+    color: white;
+}
+.second .title span{
+    font-size: 20px;
+    color: white;
+
+}
+.second .animal{
+    /*width: 5092px;*/
+    width: 5173px;
+    height: 550px;
+    /*background-color: antiquewhite;*/
+    /*padding-right: 120px;*/
+    /*box-sizing: border-box;*/
+
+}
+.second .animal li{
+    width: 298px;
+    height: 444px;
+    /*background-color: pink;*/
+    float: left;
+    margin-right: 27px;
+
+}
+.second .animal .last{
+    margin-right: 0;
+}
+.second .animal li .paihang{
+    width: 100%;
+    height: 65px;
+    font-size: 20px;
+    color: white;
+    line-height: 65px;
+}
+.second .animal li .typeName{
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    color: white;
+    margin-top: 21px;
+}
+.second .animal li .PinZhong{
+    display: block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: rgba(235,218,217,0.6);
+    margin-top: 12px;
+    border-bottom: red;
+}
+.second .animal li .more{
+    font-size: 14px;
+    color: rgba(235,218,217,0.6);
+    margin-top: 35px;
+    display: block;
+}
+.forth{
+    width: 100%;
+    height:662px;
+    padding: 60px 120px 0;
+    box-sizing: border-box;
+    /*padding-top:60px ;*/
+    margin-top: 0;
+}
+.forth .title{
+    width: 100%;
+    height: 112px;
+    text-align: center;
+    padding-top: 25px ;
+    box-sizing: border-box;
+    /*border-bottom: 1px  solid #dbc3c2;*/
+}
+.forth .title h3{
+    font-size: 30px;
+    color: white;
+}
+.forth .title span{
+    font-size: 20px;
+    color: white;
+
+}
+.forth .content{
+    width: 100%;
+    height: 100%;
+}
+.forth .content li{
+    width: 33.33%;
+    height: 490px;
+    float: left;
+    border: 1px solid #e2cac9;
+    padding: 0 29px ;
+    box-sizing: border-box;
+}
+.forth .content li .time{
+    width: 100%;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.forth .content li .time .date{
+    font-size: 30px;
+    color: white;
+}
+.forth .content li .time .year{
+    font-size: 12px;
+    color: rgba(247,241,241,0.5);
+}
+.forth .type h5{
+    width: 100%;
+    height: 50px;
+    color: rgba(255,255,255,0.9);
+    line-height: 50px;
+    border-top: 1px solid #e2cac9;
+}
+.forth .content li .pic{
+    display: block;
+    width: 100%;
+    height: 167px;
+}
+.forth .content li .des{
+    width: 100%;
+    height: 99px;
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.forth .content li .more{
+    width: 100%;
+    height: auto;
+    /*line-height:100px;*/
+    color: rgba(235,218,217,0.6);
+}
+footer{
+    width: 100%;
+    height: 158px;
+    background-color: white;
+    padding:40px 60px ;
+    box-sizing: border-box;
+}
+footer .one{
+    width: 100%;
+    padding: 0 43px;
+    float: left;
+    margin-top: 10px;
+}
+footer .one a{
+    width: 85px;
+    font-size: 12px;
+    display: block;
+    border-right: 1px solid #e2cac9;
+    padding: 0 18px;
+    box-sizing: border-box;
+    float: left;
+    color: #969696;
+
+}
+footer .two {
+    font-size: 12px;
+    color: #969696;
+    padding: 0 61px;
+    margin-top: 30px;
+}
+footer .three {
+    font-size: 12px;
+    color: #969696;
+    padding: 0 61px;
+    margin-top: 10px;
+}
+footer .three  a{
+    font-size: 12px;
+    color: #969696;
+}
